@@ -1,0 +1,25 @@
+.searchBar {
+   padding: 15px;
+   display:flex;
+   justify-content: center;
+   align-items: baseline;
+}
+#searchButton{
+   height: 30px;
+   width: 30%;
+   text-align: right;
+   background-color: lightgray;
+}
+
+#buttonSearch {
+   height: 40px;
+   width: 10%;
+   background-color: rgb(34, 32, 32);
+   border-radius: 10px;
+   color:grey;
+   box-sizing: border-box;
+   font-size: 1.2em;
+}
+#buttonSearch:hover {
+   color: white;
+}
