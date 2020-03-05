@@ -14,19 +14,34 @@
   </header>
   <nav class="navbar">
     <ul class="navbar-list">
-      <li id="search">
+    <li >
+      <form>
         <label for="site-search"></label>
         <input type="search" id="site-search" name="q" aria-label="Search through site content">
-        <button id="search-btn">Search</button>
-      </li>
-      <li id="cart">Your Cart</li>
+        <button id="search-btn">Search</button>    
+      </li>       
     </ul>
   </nav>
+<div class = "container">
+  <ul class="grid-container" id="watches">
 
-  <div class="grid-container" id="watches">
+  </ul>
+  <section id="cartSection">
+    <h1 id="cartTitle">Cart</h1>
+    <table>
+      <thead>
+        <tr class="tr" id="theadTr">
+          <th>Produs</th>
+          <th>Pret</th>
+        </tr>
 
-  </div>
-
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <h2 id="currentBalance"></h2>
+  </section>
+</div>
+</form>
 
   <footer class="footer">
     <p>Copyright &copy Watches Shop 2020<p>

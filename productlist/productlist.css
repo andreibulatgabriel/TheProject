@@ -5,6 +5,7 @@ body {
     top: 0;
     position: relative;
     height:150vh
+    
 }
 .header {
     height: 120px;
@@ -33,7 +34,7 @@ li {
     display: inline-block;
     padding: 10px;
     font-size:1.5em;
-    color:white;
+    color:black;
     margin-right: 10vw;
 }
 #site-search {
@@ -71,23 +72,78 @@ li {
 }
  
 .grid-container {
-    position: absolute;
+    position: relative;
     top:180px;
     height: auto;
-    width: 100vw;
+    width: 73vw;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
-    background-color: gray;
+    background-color:white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 0;
     
+}
+.grid-container li {
+    margin-right: 0;
 }
 .watches {
     height: 300px;
     width: 20vw;
     background-color: aqua;
-    margin: 20px;
-}
-
-#watches {
     
 }
+
+.elem {
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+/* .elem :last-child {
+    display: none;
+} */
+
+.container {
+  
+   top: 180px;
+   display: flex;
+   justify-content: space-around;
+   width: 100vw;
+   height: 70vh; 
+}
+#cartSection {
+    background-color: lightpink;
+    position: relative;
+    top: 225px;
+    border: 1px solid black;
+    width: 22vw;
+    margin-right: 1vw;
+    border: 1px solid lightgray;
+    padding: 10px 30px;
+}
+
+#cartTitle {
+    text-align: center;
+    
+}
+#currentBalance {
+    text-align: right;
+    margin-right: 5px;
+    
+    
+}
+#theadTr {
+    font-weight: bold;
+  }
+  
+  .tr th,
+  .tr td {
+    padding: 10px 15px;
+    border-top: solid 1px gray;
+    width: 20vw;
+  }
