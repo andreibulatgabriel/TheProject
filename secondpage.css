@@ -7,34 +7,35 @@ html, body {
     left: 0;
 }
 .page-header {
-    background-color:black;
+    background-color:white;
     width:100vw;
-    height: 15vh;
+    height: 13vh;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #3ab4e0;
    
 }
 
 .nav {
-background-color: green;
+background-color:#3ab4e0;
 width:100vw;
-height: 10vh;
-padding: 20px;
+height: 8vh;
+padding: 15px;
 display: flex;
 justify-content: space-around;
 }
 li a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: white;
 }
 li a:hover {
     text-decoration: none;
-    color: lightgrey;
+    font-size: 1.7em;
+    color:white;
 }
 .dropdown-menu {
-    background-color:black;
+    background-color:white;
     height: 15vh;
     width: 10vw;
     text-align: left;
@@ -42,21 +43,26 @@ li a:hover {
 }
 .dropdown-menu li a {
     text-decoration: none;
-    color:white;
+    color:#3ab4e0;
 }
 .dropdown-menu li a:hover {
     text-decoration: none;
     color: lightgrey;
 }
-
+.slider-background img{
+    position: absolute;
+    width: 47.5vw;
+    height: 65vh;
+}
+.carusel-container {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
 #slider {
     overflow : hidden;
-    background-color: lightgray;
      width: 50vw;
      position: fixed;
-     right: 0;
-
-   
+     right: 0;  
 }
 
 #slider figure {
@@ -102,14 +108,14 @@ li a:hover {
 }
 .footer {
     position: absolute;
-    bottom: 0;
-    background-color: black;
+    top: 90vh;
     height: 10vh;
     width: 100vw;
+    background-color: #3ab4e0;
 }
 .footer p {
     color: white;
-    font-size: 1.4 em;
+    font-size: 1.3em;
     margin-left: 5vw;
     padding: 10px;
 }

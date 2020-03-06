@@ -1,9 +1,13 @@
-body {
+body{
     font-family: arial;
+    background-color: #3ab4e0;
     display:flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+  }
+  #fieldse{
+    background-color: white;
   }
   fieldset {
     height: 300px;
@@ -37,7 +41,7 @@ body {
     height: 40px;
     width: 280px;
     color: white;
-    background-color: rgb(75, 167, 75);
+    background-color:#3ab4e0;
   }
   #bold {
     font-weight: bold;
